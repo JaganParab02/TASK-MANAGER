@@ -22,7 +22,7 @@ A simple full-stack Task Manager application built using:
 
 ## 🛠️ Project Structure
 
-```
+
 
 task-manager/
 │
@@ -34,7 +34,7 @@ task-manager/
 ├── src/
 ├── package.json
 
-```
+
 
 ---
 
