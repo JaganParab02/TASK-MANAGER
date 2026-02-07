@@ -38,17 +38,16 @@ task-manager/
 
 ---
 
-## How to Run the Project
-
-###  Run Backend (Flask)
-
-Go to backend folder:
-
 ```
+How to Run the Project
 
-cd backend
+Run Backend (Flask)
+
+Go to backend folder
+
 To Install Dependencies and run the backend
 ```
+cd backend
 pip install -r requirements.txt
 python app.py
 
