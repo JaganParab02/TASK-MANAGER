@@ -79,17 +79,6 @@ Frontend will run on:
 ## Approach
 ```
 - Used Flask for simple and beginner-friendly REST API development.
-- Stored tasks in memory using a list (no database required).
+- Stored tasks in memory using a list.
 - Used React `useState` and `useEffect` for state management.
 - Used Fetch API to connect frontend with backend.
-- Kept UI minimal and functional using normal CSS.
-
-```
-## Future Improvements
-```
-- Add delete task feature
-- Add edit task feature
-- Add persistent database (MongoDB / PostgreSQL)
-- Add authentication
-- Improve UI responsiveness
- 
