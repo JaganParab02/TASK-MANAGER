@@ -7,8 +7,6 @@ A simple full-stack Task Manager application built using:
 - Frontend: React + Vite
 - Database: In-memory storage (no real database)
 
-```
-```
 Features
 ```
 - Add a new task (title + description)
@@ -19,11 +17,9 @@ Features
 - Clean and modern UI using normal CSS
 
 ```
-
 ## Project Structure
 
 ```
-
 task-manager/
 │
 ├── backend/
@@ -33,10 +29,6 @@ task-manager/
 └── frontend/
 ├── src/
 ├── package.json
-
-
-
- 
 
 ```
 How to Run the Project
@@ -51,49 +43,28 @@ cd backend
 pip install -r requirements.txt
 python app.py
 
-```
-
-
-```
-
 Backend will run on: [http://127.0.0.1:5000](http://127.0.0.1:5000)
-
----
 
 ### Run Frontend (React + Vite)
 ```
 Go to frontend folder:
 ```
-
-
 cd frontend
-
-
-
 
 ```
 Install dependencies:
-
-
-
 ```
 npm install
-
 ```
-
 Start development server:
 
 ```
 npm run dev
-
-
 ```
 Frontend will run on: 
 
-
 ```
 [http://localhost:5173](http://localhost:5173)
-
 ```
  
 ## API Endpoints
@@ -105,7 +76,6 @@ Frontend will run on:
 | PUT    | /tasks/:id/complete | Mark task as completed |
 
 ```
-
 ## Approach
 ```
 - Used Flask for simple and beginner-friendly REST API development.
@@ -115,7 +85,6 @@ Frontend will run on:
 - Kept UI minimal and functional using normal CSS.
 
 ```
-
 ## Future Improvements
 ```
 - Add delete task feature
