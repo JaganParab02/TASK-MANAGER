@@ -1,14 +1,12 @@
-```markdown
 # Task Manager Application
-
 A simple full-stack Task Manager application built using:
-```
+
 - Backend: Python (Flask)
 - Frontend: React + Vite
 - Database: In-memory storage (no real database)
 
 Features
-```
+```markdown
 - Add a new task (title + description)
 - View all tasks
 - Separate pending and completed tasks
