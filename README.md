@@ -9,7 +9,7 @@ A simple full-stack Task Manager application built using:
 
 ---
 
-## 📌 Features
+Features
 
 - Add a new task (title + description)
 - View all tasks
@@ -20,7 +20,7 @@ A simple full-stack Task Manager application built using:
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
 
 
 
