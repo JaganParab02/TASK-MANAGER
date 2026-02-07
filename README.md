@@ -2,15 +2,15 @@
 # Task Manager Application
 
 A simple full-stack Task Manager application built using:
-
+```
 - Backend: Python (Flask)
 - Frontend: React + Vite
 - Database: In-memory storage (no real database)
 
----
-
+```
+```
 Features
-
+```
 - Add a new task (title + description)
 - View all tasks
 - Separate pending and completed tasks
@@ -18,11 +18,11 @@ Features
 - Confirmation dialog before completing a task
 - Clean and modern UI using normal CSS
 
----
+```
 
 ## Project Structure
 
-
+```
 
 task-manager/
 │
@@ -36,7 +36,7 @@ task-manager/
 
 
 
----
+ 
 
 ```
 How to Run the Project
@@ -95,33 +95,32 @@ Frontend will run on:
 [http://localhost:5173](http://localhost:5173)
 
 ```
-```
+ 
 ## API Endpoints
-
+```
 | Method | Endpoint | Description |
 |--------|----------|------------|
 | POST   | /tasks | Add a new task |
 | GET    | /tasks | Get all tasks |
 | PUT    | /tasks/:id/complete | Mark task as completed |
 
----
+```
 
 ## Approach
-
+```
 - Used Flask for simple and beginner-friendly REST API development.
 - Stored tasks in memory using a list (no database required).
 - Used React `useState` and `useEffect` for state management.
 - Used Fetch API to connect frontend with backend.
 - Kept UI minimal and functional using normal CSS.
 
----
+```
 
 ## Future Improvements
-
+```
 - Add delete task feature
 - Add edit task feature
 - Add persistent database (MongoDB / PostgreSQL)
 - Add authentication
 - Improve UI responsiveness
-
----
+ 
