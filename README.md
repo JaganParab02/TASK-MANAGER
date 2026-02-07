@@ -38,58 +38,46 @@ task-manager/
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
-### 1️⃣ Run Backend (Flask)
+###  Run Backend (Flask)
 
 Go to backend folder:
 
 ```
 
 cd backend
-
+To Install Dependencies and run the backend
 ```
-
-Install dependencies:
-
-```
-
 pip install -r requirements.txt
-
-```
-
-Run the server:
-
-```
-
 python app.py
 
 ```
 
-Backend will run on:
 
 ```
 
-[http://127.0.0.1:5000](http://127.0.0.1:5000)
-
-```
+Backend will run on: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ---
 
-### 2️⃣ Run Frontend (React + Vite)
-
-Go to frontend folder:
-
+### Run Frontend (React + Vite)
 ```
+Go to frontend folder:
+```
+
 
 cd frontend
 
-```
 
+
+
+```
 Install dependencies:
 
-```
 
+
+```
 npm install
 
 ```
@@ -97,22 +85,19 @@ npm install
 Start development server:
 
 ```
-
 npm run dev
 
-```
-
-Frontend will run on:
 
 ```
+Frontend will run on: 
 
+
+```
 [http://localhost:5173](http://localhost:5173)
 
 ```
-
----
-
-## 🔗 API Endpoints
+```
+## API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|------------|
@@ -122,7 +107,7 @@ Frontend will run on:
 
 ---
 
-## 💡 Approach
+## Approach
 
 - Used Flask for simple and beginner-friendly REST API development.
 - Stored tasks in memory using a list (no database required).
@@ -132,18 +117,12 @@ Frontend will run on:
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Add delete task feature
 - Add edit task feature
 - Add persistent database (MongoDB / PostgreSQL)
 - Add authentication
 - Improve UI responsiveness
-
----
-
-## 👨‍💻 Author
-
-Jagan Parab```
 
 ---
